@@ -9,7 +9,7 @@ A feature-rich, autonomous irrigation system built on the ESP32-S3 using the Ard
 *   **Multi-Sensor Input:** Monitors ambient humidity, soil moisture (2 channels), ambient temperature, atmospheric pressure, and VOC (air quality).
 *   **Two zones of irrigation with independent settings
 *   **Intelligent Control Modes:** Features Auto, Manual, and an Adaptive (self-learning) mode for dynamic irrigation scheduling.
-*   **Advanced Environmental Data:** Uses a local BH1750FVI light sensor and fetches external solar radiation data from a weather service.
+*   **Advanced Environmental Data:** Uses a local BH1750FVI light sensor and BME680 temp/humidity/pressure/VOC, fetching external data from a weather service if available.
 *   **Data-Driven Decisions:** Calculates Vapor Pressure Deficit (VPD) and uses sensor inference for precise auto-watering. 
 *   **Includes soil-type compensation and guided calibration for soil moisture sensors.
 
